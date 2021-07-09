@@ -1,0 +1,8 @@
+.menu-item {
+  padding: 16px;
+}
+
+.menu-item:hover {
+  background-color: var(--win-95-blue);
+  color: var(--win-95-white);
+}

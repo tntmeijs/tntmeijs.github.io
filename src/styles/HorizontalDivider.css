@@ -1,0 +1,5 @@
+.horizontal-divider {
+  height: 1px;
+  background-color: var(--win-95-white);
+  border-top: 1px solid var(--win-95-dark-gray);
+}

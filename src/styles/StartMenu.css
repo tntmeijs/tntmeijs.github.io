@@ -5,8 +5,38 @@
   height: 100%;
   width: 54px;
   border: none;
+  outline: none;
 }
 
 .start-button.active {
   background-image: url("./../images/start_button_pressed.png");
+}
+
+.menu {
+  background-color: var(--win-95-gray);
+  position: absolute;
+  bottom: 23px;
+  left: 2px;
+  display: flex;
+  border-top: 1px solid var(--win-95-white);
+  border-left: 1px solid var(--win-95-white);
+  border-right: 1px solid var(--win-95-black);
+  border-bottom: 1px solid var(--win-95-black);
+}
+
+.menu-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.menu-side-banner {
+  background-color: var(--win-95-dark-gray);
+  writing-mode: vertical-rl;
+  text-orientation: sideways;
+  transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
 }
