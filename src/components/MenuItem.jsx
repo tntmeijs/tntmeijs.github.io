@@ -7,8 +7,8 @@ export default function MenuItem(props) {
 
   return (
     <div className="menu-item">
-      <img />
       <span>{props.title}</span>
+      {props.expand ? <div className="expand-arrow"></div> : null}
     </div>
   );
 }

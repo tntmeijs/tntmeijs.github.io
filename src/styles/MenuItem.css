@@ -1,8 +1,27 @@
 .menu-item {
-  padding: 16px;
+  padding: 0.75rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .menu-item:hover {
   background-color: var(--win-95-blue);
   color: var(--win-95-white);
+}
+
+.menu-item > span {
+  margin-right: 3rem;
+}
+
+.menu-item:hover > .expand-arrow {
+  border-left-color: var(--win-95-white);
+}
+
+.expand-arrow {
+  width: 0;
+  height: 0;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 5px solid var(--win-95-black);
 }

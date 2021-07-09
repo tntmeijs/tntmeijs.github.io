@@ -26,16 +26,16 @@ export default function StartMenu() {
       {isActive ? (
         <nav className="menu">
           <span className="menu-side-banner">
-            <b>Tahar Meijs</b>
+            <b>Tahar Meijs </b>
             <span>{new Date().getFullYear().toString().substr(2, 4)}</span>
           </span>
           <div className="menu-container">
             <MenuItem title="Contact Me..." />
             <HorizontalDivider />
             <MenuItem title="GitHub Profile" />
-            <MenuItem title="Certifications" />
-            <MenuItem title="Dev Blog" />
-            <MenuItem title="Projects" />
+            <MenuItem title="Certifications" expand />
+            <MenuItem title="Dev Blog" expand />
+            <MenuItem title="Projects" expand />
           </div>
         </nav>
       ) : null}
