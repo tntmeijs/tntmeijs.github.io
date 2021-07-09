@@ -1,5 +1,13 @@
+import Desktop from "./components/Desktop";
+import Taskbar from "./components/Taskbar";
+
 function App() {
-  return <h1>Hello, world!</h1>;
+  return (
+    <>
+      <Desktop />
+      <Taskbar />
+    </>
+  );
 }
 
 export default App;

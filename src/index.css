@@ -1,13 +1,16 @@
 :root {
   --win-95-green: #008282;
   --win-95-blue: #000082;
-  --win-95-gray: #C3C3C3;
+  --win-95-gray: #c3c3c3;
   --win-95-dark-gray: #828282;
-  --win-95-white: #FFFFFF;
+  --win-95-white: #ffffff;
   --win-95-black: #000000;
+
+  font-size: 13px;
 }
 
 html,
 body {
-  background-color: var(--win-95-green);
+  margin: 0;
+  padding: 0;
 }

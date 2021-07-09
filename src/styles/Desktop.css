@@ -1,0 +1,5 @@
+.desktop {
+  background-color: var(--win-95-green);
+  width: 100vw;
+  height: calc(100vh - 2rem);
+}
