@@ -1,0 +1,12 @@
+.start-button {
+  background-repeat: no-repeat;
+  background-image: url("./../images/start_button.png");
+  background-position: center;
+  height: 100%;
+  width: 54px;
+  border: none;
+}
+
+.start-button.active {
+  background-image: url("./../images/start_button_pressed.png");
+}

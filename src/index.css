@@ -1,3 +1,13 @@
+@font-face {
+  font-family: "MS Sans Serif";
+  src: url("./fonts/ms_sans_serif.ttf");
+}
+
+@font-face {
+  font-family: "MS Sans Serif Bold";
+  src: url("./fonts/ms_sans_serif_bold.ttf");
+}
+
 :root {
   --win-95-green: #008282;
   --win-95-blue: #000082;
@@ -5,8 +15,14 @@
   --win-95-dark-gray: #828282;
   --win-95-white: #ffffff;
   --win-95-black: #000000;
+}
 
-  font-size: 13px;
+* {
+  font-family: "MS Sans Serif";
+}
+
+b {
+  font-family: "MS Sans Serif Bold";
 }
 
 html,

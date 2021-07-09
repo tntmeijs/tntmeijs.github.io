@@ -1,7 +1,7 @@
 .taskbar {
   position: fixed;
   background-color: var(--win-95-gray);
-  height: 2rem;
+  height: 26px;
   width: 100vw;
   bottom: 0;
 }
