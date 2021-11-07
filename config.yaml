@@ -1,0 +1,74 @@
+baseURL: https://tahar.dev
+languageCode: en-us
+defaultContentLanguage: en
+title: Tahar's Blog
+theme: papercss-hugo-theme
+googleAnalytics: G-Z52Z9NGP1T
+# disqusShortname: yourdiscussshortname
+
+publishdir: ./docs/
+
+privacy:
+  disqus:
+    disable: true
+
+taxonomies:
+  tag: tags
+
+permalinks:
+  post: /:filename/
+
+imaging:
+  quality: 99
+
+# To disable, set to an extremely large value, such as 999999
+paginate: 5
+
+params:
+  homeMetaContent: Tahar's little corner on the internet where he shares his opinions, knowledge, and fun facts!
+  # For more date formats see https://gohugo.io/functions/format/
+  dateFormat: Jan 2, 2006
+  navTitleLink: /
+
+menu:
+  nav:
+    - name: Blog
+      url: /
+      weight: 1
+    - name: Tags
+      url: /tags/
+      weight: 2
+    - name: RSS
+      url: /index.xml
+      weight: 3
+
+markup:
+  defaultMarkdownHandler: goldmark
+  goldmark:
+    extensions:
+      definitionList: true
+      footnote: true
+      linkify: true
+      strikethrough: true
+      table: true
+      taskList: true
+      typographer: true
+    parser:
+      attribute: true
+      autoHeadingID: true
+    renderer:
+      hardWraps: false
+      unsafe: true
+      xHTML: false
+  highlight:
+    codeFences: true
+    hl_Lines: ""
+    lineNoStart: 1
+    lineNos: false
+    lineNumbersInTable: true
+    noClasses: true
+    style: monokai
+    tabWidth: 4
+  tableOfContents:
+    endLevel: 6
+    startLevel: 2
