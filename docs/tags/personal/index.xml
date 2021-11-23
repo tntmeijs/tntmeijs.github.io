@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>personal on Tahar&#39;s Blog</title>
+    <link>http://tahar.dev/tags/personal/</link>
+    <description>Recent content in personal on Tahar&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 29 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://tahar.dev/tags/personal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Imposter syndrome? Try blogging!</title>
+      <link>http://tahar.dev/posts/2021/20210329-imposter-syndrome-try-blogging/</link>
+      <pubDate>Mon, 29 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://tahar.dev/posts/2021/20210329-imposter-syndrome-try-blogging/</guid>
+      <description>Photo by J. Kelly Brito on Unsplash
+I absolutely love to learn new things. Whether it’s something to advance my career (scrum master training), personal development (blogging), or just a fun hobby (motorcycling).
+But, sometimes I seem to somewhat suffer from Imposter Syndrome. Especially at work or when listening to technical talks. I can’t help but have the feeling that I’m lacking knowledge and that I don’t know nearly enough to properly do my job.</description>
+    </item>
+    
+  </channel>
+</rss>
