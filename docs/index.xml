@@ -7,12 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language><atom:link href="http://tahar.dev/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>About</title>
+      <title>Hellooo 👋</title>
       <link>http://tahar.dev/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://tahar.dev/about/</guid>
-      <description></description>
+      <description>I&amp;rsquo;m Tahar! Looks like you&amp;rsquo;ve stumbled upon my little hideout on the internet&amp;hellip;
+This page is pretty boring summary of who I am and where I work. Not the most exciting stuff, but I figured you might like to know a little bit more about who&amp;rsquo;s responsible for all the nonsense on this website. 😅
+A little bit about me&amp;hellip; I&amp;rsquo;m currently employed as a software engineer at Deloitte&amp;rsquo;s cloud engineering team in Amsterdam.</description>
     </item>
     
   </channel>
