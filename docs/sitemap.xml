@@ -2,16 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://tahar.dev/authors/</loc>
+    <loc>http://tahar.dev/posts/2021/20210326-actix-rs-a-newbies-perspective/</loc>
+    <lastmod>2021-03-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://tahar.dev/tags/backend/</loc>
+    <lastmod>2021-03-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://tahar.dev/categories/</loc>
+    <lastmod>2021-03-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://tahar.dev/posts/</loc>
+    <lastmod>2021-03-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://tahar.dev/categories/rust/</loc>
+    <lastmod>2021-03-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://tahar.dev/tags/rust/</loc>
+    <lastmod>2021-03-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://tahar.dev/tags/server/</loc>
+    <lastmod>2021-03-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://tahar.dev/tags/</loc>
+    <lastmod>2021-03-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://tahar.dev/</loc>
+    <lastmod>2021-03-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://tahar.dev/authors/</loc>
   </url><url>
     <loc>http://tahar.dev/about/</loc>
   </url><url>
     <loc>http://tahar.dev/series/</loc>
-  </url><url>
-    <loc>http://tahar.dev/tags/</loc>
-  </url><url>
-    <loc>http://tahar.dev/</loc>
   </url>
 </urlset>

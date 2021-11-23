@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rust on Tahar&#39;s Blog</title>
+    <link>http://tahar.dev/categories/rust/</link>
+    <description>Recent content in Rust on Tahar&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 26 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://tahar.dev/categories/rust/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Actix.rs - a newbie&#39;s perspective</title>
+      <link>http://tahar.dev/posts/2021/20210326-actix-rs-a-newbies-perspective/</link>
+      <pubDate>Fri, 26 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://tahar.dev/posts/2021/20210326-actix-rs-a-newbies-perspective/</guid>
+      <description>Actix.rs — a newbie’s perspective    Photo by James Harrison on Unsplash
+These days the Rust programming language seems to be everywhere you go online. In fact, the Rust language was rated as one of the most loved languages by the community in the 2020 StackOverflow developer survey!
+I often tend to stay away from hypes and new languages, but the amount of engineers praising Rust has grown significantly over the years.</description>
+    </item>
+    
+  </channel>
+</rss>

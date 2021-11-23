@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="en">
+    <meta name="color-scheme" content="light dark">
+
+    
+
+    <meta name="author" content="Tahar Meijs">
+    <meta name="description" content="Actix.rs — a newbie’s perspective    Photo by James Harrison on Unsplash
+These days the Rust programming language seems to be everywhere you go online. In fact, the Rust language was rated as one of the most loved languages by the community in the 2020 StackOverflow developer survey!
+I often tend to stay away from hypes and new languages, but the amount of engineers praising Rust has grown significantly over the years.">
+    <meta name="keywords" content="blog,developer,personal">
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Actix.rs - a newbie&#39;s perspective"/>
+<meta name="twitter:description" content="Actix.rs — a newbie’s perspective    Photo by James Harrison on Unsplash
+These days the Rust programming language seems to be everywhere you go online. In fact, the Rust language was rated as one of the most loved languages by the community in the 2020 StackOverflow developer survey!
+I often tend to stay away from hypes and new languages, but the amount of engineers praising Rust has grown significantly over the years."/>
+
+    <meta property="og:title" content="Actix.rs - a newbie&#39;s perspective" />
+<meta property="og:description" content="Actix.rs — a newbie’s perspective    Photo by James Harrison on Unsplash
+These days the Rust programming language seems to be everywhere you go online. In fact, the Rust language was rated as one of the most loved languages by the community in the 2020 StackOverflow developer survey!
+I often tend to stay away from hypes and new languages, but the amount of engineers praising Rust has grown significantly over the years." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://tahar.dev/posts/2021/20210326-actix-rs-a-newbies-perspective/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-03-26T00:00:00+00:00" />
+<meta property="article:modified_time" content="2021-03-26T00:00:00+00:00" />
+
+
+
+    <title>
+  Actix.rs - a newbie&#39;s perspective · Tahar&#39;s Blog
+</title>
+
+    
+      <link rel="canonical" href="http://tahar.dev/posts/2021/20210326-actix-rs-a-newbies-perspective/">
+    
+
+    <link rel="preload" href="/fonts/forkawesome-webfont.woff2?v=1.2.0" as="font" type="font/woff2" crossorigin>
+
+    
+      
+      
+      <link rel="stylesheet" href="/css/coder.min.d9fddbffe6f27e69985dc5fe0471cdb0e57fbf4775714bc3d847accb08f4a1f6.css" integrity="sha256-2f3b/&#43;byfmmYXcX&#43;BHHNsOV/v0d1cUvD2Eesywj0ofY=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+      
+        
+        
+        <link rel="stylesheet" href="/css/coder-dark.min.ccbbada2e264e4fdbf9b2181cccc2cdb289a63dc9520a1e96ac2b9a45778df29.css" integrity="sha256-zLutouJk5P2/myGBzMws2yiaY9yVIKHpasK5pFd43yk=" crossorigin="anonymous" media="screen" />
+      
+    
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="/img/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/img/favicon-16x16.png" sizes="16x16">
+
+    <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+    <meta name="generator" content="Hugo 0.89.4" />
+  </head>
+
+  
+  
+    
+  
+  <body class="preload-transitions colorscheme-auto">
+    
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="/">
+      Tahar&#39;s Blog
+    </a>
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/posts/">Blog</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/about/">About</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="http://tahar.dev/posts/2021/20210326-actix-rs-a-newbies-perspective/">
+              Actix.rs - a newbie&#39;s perspective
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa fa-calendar" aria-hidden="true"></i>
+              <time datetime='2021-03-26T00:00:00Z'>
+                March 26, 2021
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa fa-clock-o" aria-hidden="true"></i>
+              4-minute read
+            </span>
+          </div>
+          
+          <div class="categories">
+  <i class="fa fa-folder" aria-hidden="true"></i>
+    <a href="/categories/rust/">Rust</a></div>
+
+          <div class="tags">
+  <i class="fa fa-tag" aria-hidden="true"></i>
+    <span class="tag">
+      <a href="/tags/rust/">rust</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/backend/">backend</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/server/">server</a>
+    </span></div>
+
+        </div>
+      </header>
+
+      <div>
+        
+        <h1 id="actixrsa-newbies-perspective">
+  Actix.rs — a newbie’s perspective
+  <a class="heading-link" href="#actixrsa-newbies-perspective">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h1>
+<p><img src="/images/actix-rs-a-newbies-perspective/cover.png" alt="Cover">
+<em>Photo by <a href="https://unsplash.com/@jstrippa?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">James Harrison</a>
+on <a href="https://unsplash.com/s/photos/programming?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></em></p>
+<p>These days the Rust programming language seems to be everywhere you go online. In fact, the Rust language was rated as one of
+the most loved languages by the community in the
+<a href="https://insights.stackoverflow.com/survey/2020#technology-most-loved-dreaded-and-wanted-languages-loved">2020 StackOverflow developer survey</a>!</p>
+<p>I often tend to stay away from hypes and new languages, but the amount of engineers praising Rust has grown significantly over
+the years. So much that I just had to check it out myself!</p>
+<p>My day-to-day job mostly involves writing backends using either <a href="https://dotnet.microsoft.com">.NET</a> or
+<a href="https://spring.io/projects/spring-boot">Spring Boot</a>. I decided to stick to that domain and attempt to write a simple
+webserver in Rust myself.</p>
+<p>I will be using <a href="https://actix.rs">Actix.rs</a> to write a webserver because it looked like one of the more mature frameworks in
+the Rust web ecosystem. The documentation is solid and the Rust community is quite positive about its capabilities.</p>
+<p>Do note that I’m not an experienced Rust programmer at all. However, I think that this lack of knowledge allows me to give you
+a fresh perspective on how difficult it’d be for a beginner to switch from Java or C# to Rust.</p>
+<h2 id="hello-actixrs">
+  Hello, Actix.rs!
+  <a class="heading-link" href="#hello-actixrs">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h2>
+<p>After about ten minutes or so I managed to get my very first Rust web server up and running. I could navigate to
+<a href="http://localhost:8080/">localhost:8080</a> and see my welcome message. It’s not much, but it’s a start!</p>
+<p>At this point, I realized that it’d take me a long time to learn all the quirks and features of the Actix.rs framework. It’s
+not as extensive as the Spring Boot framework, but there’s quite a bit to it nonetheless. Since I tend to abandon side-projects
+after a while, I decided to set myself some very clear and concise goals for this project to ensure I could finish it within a
+reasonable amount of time.</p>
+<ul>
+<li>Do not use a real database, simply use in-memory arrays.</li>
+<li><code>GET</code> endpoint that lists all data in the database.</li>
+<li><code>POST</code> endpoint to add new entries to the database.</li>
+<li><code>DELETE</code> endpoint to remove entries from the database.</li>
+<li><code>UPDATE</code> endpoint to modify existing entries in the database.</li>
+<li>Host a very simple website that ties everything together.</li>
+</ul>
+<h2 id="serving-static-files">
+  Serving static files
+  <a class="heading-link" href="#serving-static-files">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h2>
+<p>One of the things that took me quite a bit of time to figure out was how I could serve static files. Usually I’d just place my
+<code>index.html</code> file in the <code>resources</code> folder and let Spring Boot take care of it.</p>
+<p>It turned out that I had to serve files myself. It’s not terribly difficult, but it was something I didn’t completely
+understand at first. However, after discovering that the <code>actix_files::Files::new()</code> function could simply serve an entire
+directory, I managed to serve my static files (along with some CSS) just fine. The documentation was excellent, so it was
+fairly easy to figure out after all.</p>
+<p>The 404 error handler is just a generic HTML page with some information. Here’s how I implemented mine:</p>
+<p><img src="/images/actix-rs-a-newbies-perspective/serve-static-files.png" alt="Serving a static folder along with a 404 page (created with Carbon)">
+<em>Serving a static folder along with a 404 page (created with <a href="https://carbon.now.sh/">Carbon</a>)</em></p>
+<p>Once I knew how to serve static files, it didn’t take me long to figure out how to serve a <a href="https://reactjs.org">React.js</a>
+website. With all this in place, I could get started on creating the endpoints and fetching data from the server.</p>
+<h2 id="handling-payloads">
+  Handling payloads
+  <a class="heading-link" href="#handling-payloads">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h2>
+<p>In Spring Boot it is fairly easy to work with payloads. You generally only have to add some annotations to your route to make
+it work.</p>
+<p>In Actix.rs, things work slightly differently. Text can be received directly from the response body by simply adding it as a
+parameter to the function.</p>
+<p>Path variables can be retrieved by specifying it in the route declaration and wrapping it in a <code>web::Path&lt;T&gt;</code> object as a
+function parameter.</p>
+<p>Handling JSON payloads with Actix.rs wasn’t too difficult either. By using the <a href="https://serde.rs">Serde.rs</a> crate, we can
+easily serialize and de-serialize data.</p>
+<h2 id="final-verdict">
+  Final verdict
+  <a class="heading-link" href="#final-verdict">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h2>
+<p>Overall, despite only having only played around with Actix.rs for a few hours, I’d say I’m really impressed by it. It was
+fairly easy to get a webserver up and running, the documentation was excellent, and overall ease of use was fine.</p>
+<p>My lack of knowledge of the Rust programming language itself really held me back. I felt like I didn’t quite understand the
+borrow checker, neither did I fully understand the different strings and the like. Nothing a Google search can’t fix, though!</p>
+<p>Also, working with Cargo was awesome. It’s as easy and user-friendly as <a href="https://www.nuget.org">NuGet</a>. I absolutely love how
+easy it is to grab some crates.</p>
+<p>The one thing that bothers me with Rust, though, is the lack of debugging tools. Sure, there are extensions to take care of
+this (and the Visual Studio Code extension is good), but it’s nowhere near the level of debugging I can do in IntelliJ or
+Visual Studio. Debugging in Visual Studio Code just isn’t quite there yet…</p>
+<p>But hey, overall, I had a really good time and I’ll definitely want to play around with Rust in the future.</p>
+<p>Who knows, perhaps I’ll be able to convince my team members to let me write one of the microservices in Rust instead of Java.
+😉</p>
+
+      </div>
+
+
+      <footer>
+        
+
+
+        
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+      </div>
+
+      <footer class="footer">
+  <section class="container">
+    ©
+    
+    2021
+     Tahar Meijs 
+    ·
+    Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
+    
+  </section>
+</footer>
+
+    </main>
+
+    
+      
+      <script src="/js/coder.min.03b17769f4f91ae35667e1f2a1ca8c16f50562576cf90ff32b3179926914daa5.js" integrity="sha256-A7F3afT5GuNWZ&#43;HyocqMFvUFYlds&#43;Q/zKzF5kmkU2qU="></script>
+    
+
+    
+
+    
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Z52Z9NGP1T"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-Z52Z9NGP1T', { 'anonymize_ip': false });
+}
+</script>
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+  </body>
+
+</html>
