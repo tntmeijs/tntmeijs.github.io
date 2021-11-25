@@ -6,15 +6,24 @@
     <description>Recent content on Tahar&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 29 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://tahar.dev/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 03 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://tahar.dev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Beginner&#39;s guide to MongoDB and Rust</title>
+      <link>http://tahar.dev/posts/2021/20210403-beginners-guide-to-mongodb-and-rust/</link>
+      <pubDate>Sat, 03 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://tahar.dev/posts/2021/20210403-beginners-guide-to-mongodb-and-rust/</guid>
+      <description>Beginner’s guide to MongoDB and Rust    These days non-relational databases are everywhere. Almost all popular languages have drivers for these databases. Personally, I’m a fan of MongoDB as it’s fairly easy to work with, performs well, and suits all my needs and then some!
+In this post, we’ll take a look at the Rust driver for MongoDB. By the end of this article you’ll be able to operate on your own collections using Rust.</description>
+    </item>
+    
     <item>
       <title>Imposter syndrome? Try blogging!</title>
       <link>http://tahar.dev/posts/2021/20210329-imposter-syndrome-try-blogging/</link>
       <pubDate>Mon, 29 Mar 2021 00:00:00 +0000</pubDate>
       
       <guid>http://tahar.dev/posts/2021/20210329-imposter-syndrome-try-blogging/</guid>
-      <description>Photo by J. Kelly Brito on Unsplash
-I absolutely love to learn new things. Whether it’s something to advance my career (scrum master training), personal development (blogging), or just a fun hobby (motorcycling).
+      <description>Imposter syndrome? Try blogging!    I absolutely love to learn new things. Whether it’s something to advance my career (scrum master training), personal development (blogging), or just a fun hobby (motorcycling).
 But, sometimes I seem to somewhat suffer from Imposter Syndrome. Especially at work or when listening to technical talks. I can’t help but have the feeling that I’m lacking knowledge and that I don’t know nearly enough to properly do my job.</description>
     </item>
     
@@ -24,8 +33,7 @@ But, sometimes I seem to somewhat suffer from Imposter Syndrome. Especially at w
       <pubDate>Fri, 26 Mar 2021 00:00:00 +0000</pubDate>
       
       <guid>http://tahar.dev/posts/2021/20210326-actix-rs-a-newbies-perspective/</guid>
-      <description>Photo by James Harrison on Unsplash
-These days the Rust programming language seems to be everywhere you go online. In fact, the Rust language was rated as one of the most loved languages by the community in the 2020 StackOverflow developer survey!
+      <description>Actix.rs - a newbie&amp;rsquo;s perspective    These days the Rust programming language seems to be everywhere you go online. In fact, the Rust language was rated as one of the most loved languages by the community in the 2020 StackOverflow developer survey!
 I often tend to stay away from hypes and new languages, but the amount of engineers praising Rust has grown significantly over the years. So much that I just had to check it out myself!</description>
     </item>
     

@@ -6,22 +6,22 @@
     <description>Recent content in Categories on Tahar&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 29 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://tahar.dev/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 03 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://tahar.dev/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>rust</title>
+      <link>http://tahar.dev/categories/rust/</link>
+      <pubDate>Sat, 03 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://tahar.dev/categories/rust/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>miscellaneous</title>
       <link>http://tahar.dev/categories/miscellaneous/</link>
       <pubDate>Mon, 29 Mar 2021 00:00:00 +0000</pubDate>
       
       <guid>http://tahar.dev/categories/miscellaneous/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>rust</title>
-      <link>http://tahar.dev/categories/rust/</link>
-      <pubDate>Fri, 26 Mar 2021 00:00:00 +0000</pubDate>
-      
-      <guid>http://tahar.dev/categories/rust/</guid>
       <description></description>
     </item>
     

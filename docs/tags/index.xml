@@ -6,29 +6,38 @@
     <description>Recent content in Tags on Tahar&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 29 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://tahar.dev/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>personal</title>
-      <link>http://tahar.dev/tags/personal/</link>
-      <pubDate>Mon, 29 Mar 2021 00:00:00 +0000</pubDate>
-      
-      <guid>http://tahar.dev/tags/personal/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Sat, 03 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://tahar.dev/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>backend</title>
       <link>http://tahar.dev/tags/backend/</link>
-      <pubDate>Fri, 26 Mar 2021 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 03 Apr 2021 00:00:00 +0000</pubDate>
       
       <guid>http://tahar.dev/tags/backend/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>database</title>
+      <link>http://tahar.dev/tags/database/</link>
+      <pubDate>Sat, 03 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://tahar.dev/tags/database/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mongodb</title>
+      <link>http://tahar.dev/tags/mongodb/</link>
+      <pubDate>Sat, 03 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://tahar.dev/tags/mongodb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>rust</title>
       <link>http://tahar.dev/tags/rust/</link>
-      <pubDate>Fri, 26 Mar 2021 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 03 Apr 2021 00:00:00 +0000</pubDate>
       
       <guid>http://tahar.dev/tags/rust/</guid>
       <description></description>
@@ -37,9 +46,18 @@
     <item>
       <title>server</title>
       <link>http://tahar.dev/tags/server/</link>
-      <pubDate>Fri, 26 Mar 2021 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 03 Apr 2021 00:00:00 +0000</pubDate>
       
       <guid>http://tahar.dev/tags/server/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>personal</title>
+      <link>http://tahar.dev/tags/personal/</link>
+      <pubDate>Mon, 29 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://tahar.dev/tags/personal/</guid>
       <description></description>
     </item>
     
