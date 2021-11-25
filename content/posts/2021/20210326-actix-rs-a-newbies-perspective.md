@@ -10,12 +10,10 @@ tags = [
 categories = [
     "rust"
 ]
+featuredImage = "/images/actix-rs-a-newbies-perspective/cover.png"
 +++
 
-![Cover](/images/actix-rs-a-newbies-perspective/cover.png)
-
-*Photo by [James Harrison](https://unsplash.com/@jstrippa) on [Unsplash](https://unsplash.com/s/photos/programming)*
-
+# Actix.rs - a newbie's perspective
 These days the Rust programming language seems to be everywhere you go online. In fact, the Rust language was rated as one of
 the most loved languages by the community in the
 [2020 StackOverflow developer survey](https://insights.stackoverflow.com/survey/2020#technology-most-loved-dreaded-and-wanted-languages-loved)!

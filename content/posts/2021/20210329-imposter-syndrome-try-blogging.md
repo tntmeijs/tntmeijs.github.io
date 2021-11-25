@@ -8,12 +8,10 @@ tags = [
 categories = [
     "miscellaneous"
 ]
+featuredImage = "/images/imposter-syndrome-try-blogging/cover.png"
 +++
 
-![Cover](/images/imposter-syndrome-try-blogging/cover.png)
-
-*Photo by [J. Kelly Brito](https://unsplash.com/@heykellybrito) on [Unsplash](https://unsplash.com/)*
-
+# Imposter syndrome? Try blogging!
 I absolutely love to learn new things. Whether it’s something to advance my career (scrum master training), personal
 development (blogging), or just a fun hobby (motorcycling).
 
