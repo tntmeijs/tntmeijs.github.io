@@ -33,6 +33,12 @@ enableTwemoji = true
 colorScheme = "auto"
 hidecolorschemetoggle = false
 
+[params.utterances]
+issueTerm = "pathname"
+label = "comment"
+repo = "tntmeijs/tntmeijs.github.io"
+theme = "photon-dark"
+
 [taxonomies]
 author = "authors"
 category = "categories"
