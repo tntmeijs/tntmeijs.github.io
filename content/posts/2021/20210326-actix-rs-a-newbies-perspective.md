@@ -10,7 +10,7 @@ tags = [
 categories = [
     "rust"
 ]
-featuredImage = "/images/actix-rs-a-newbies-perspective/cover.png"
+featuredImage = "/images/2021/actix-rs-a-newbies-perspective/cover.png"
 +++
 
 # Actix.rs - a newbie's perspective
@@ -58,7 +58,7 @@ fairly easy to figure out after all.
 
 The 404 error handler is just a generic HTML page with some information. Here’s how I implemented mine:
 
-![Serving a static folder along with a 404 page (created with [Carbon](https://carbon.now.sh/))](/images/actix-rs-a-newbies-perspective/serve-static-files.png)
+![Serving a static folder along with a 404 page (created with [Carbon](https://carbon.now.sh/))](/images/2021/actix-rs-a-newbies-perspective/serve-static-files.png)
 
 *Serving a static folder along with a 404 page (created with [Carbon](https://carbon.now.sh/))*
 

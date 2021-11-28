@@ -8,7 +8,7 @@ tags = [
 categories = [
     "miscellaneous"
 ]
-featuredImage = "/images/imposter-syndrome-try-blogging/cover.png"
+featuredImage = "/images/2021/imposter-syndrome-try-blogging/cover.png"
 +++
 
 # Imposter syndrome? Try blogging!
