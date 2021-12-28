@@ -62,6 +62,10 @@ name = "Blog"
 url = "posts/"
 weight = 1
 [[menu.main]]
-name = "About"
-url = "about/"
+name = "Resume"
+url = "/files/tahar_meijs_resume_2022.pdf"
 weight = 2
+[[menu.main]]
+name = "About Me"
+url = "about/"
+weight = 3
