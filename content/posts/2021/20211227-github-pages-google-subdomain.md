@@ -2,12 +2,6 @@
 author = "Tahar Meijs"
 date = "2021-12-27"
 title = "Configure GitHub Pages to use a Google subdomain"
-tags = [
-    "personal"
-]
-categories = [
-    "miscellaneous"
-]
 featuredImage = "/images/2021/github-pages-google-subdomain/cover.png"
 +++
 

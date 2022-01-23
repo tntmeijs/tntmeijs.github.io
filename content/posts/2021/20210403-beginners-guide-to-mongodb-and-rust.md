@@ -2,16 +2,6 @@
 author = "Tahar Meijs"
 date = "2021-04-03"
 title = "Beginner's guide to MongoDB and Rust"
-tags = [
-    "rust",
-    "backend",
-    "server",
-    "database",
-    "mongodb"
-]
-categories = [
-    "rust"
-]
 featuredImage = "/images/2021/beginners-guide-to-mongodb-and-rust/cover.png"
 +++
 

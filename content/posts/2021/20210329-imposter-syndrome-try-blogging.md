@@ -2,12 +2,6 @@
 author = "Tahar Meijs"
 date = "2021-03-29"
 title = "Imposter syndrome? Try blogging!"
-tags = [
-    "personal"
-]
-categories = [
-    "miscellaneous"
-]
 featuredImage = "/images/2021/imposter-syndrome-try-blogging/cover.png"
 +++
 

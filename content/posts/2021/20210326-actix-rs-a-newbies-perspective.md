@@ -2,14 +2,6 @@
 author = "Tahar Meijs"
 date = "2021-03-26"
 title = "Actix.rs - a newbie's perspective"
-tags = [
-    "rust",
-    "backend",
-    "server"
-]
-categories = [
-    "rust"
-]
 featuredImage = "/images/2021/actix-rs-a-newbies-perspective/cover.png"
 +++
 
