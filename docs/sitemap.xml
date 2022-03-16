@@ -2,46 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://tahar.dev/categories/</loc>
-    <lastmod>2021-12-27T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://tahar.dev/posts/2021/20211227-github-pages-google-subdomain/</loc>
-    <lastmod>2021-12-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://tahar.dev/categories/miscellaneous/</loc>
-    <lastmod>2021-12-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://tahar.dev/tags/personal/</loc>
     <lastmod>2021-12-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://tahar.dev/posts/</loc>
     <lastmod>2021-12-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://tahar.dev/tags/</loc>
-    <lastmod>2021-12-27T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://tahar.dev/</loc>
     <lastmod>2021-12-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://tahar.dev/tags/backend/</loc>
-    <lastmod>2021-04-03T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://tahar.dev/posts/2021/20210403-beginners-guide-to-mongodb-and-rust/</loc>
-    <lastmod>2021-04-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://tahar.dev/tags/database/</loc>
-    <lastmod>2021-04-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://tahar.dev/tags/mongodb/</loc>
-    <lastmod>2021-04-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://tahar.dev/tags/rust/</loc>
-    <lastmod>2021-04-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://tahar.dev/categories/rust/</loc>
-    <lastmod>2021-04-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://tahar.dev/tags/server/</loc>
     <lastmod>2021-04-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://tahar.dev/posts/2021/20210329-imposter-syndrome-try-blogging/</loc>
@@ -52,8 +22,12 @@
   </url><url>
     <loc>http://tahar.dev/authors/</loc>
   </url><url>
+    <loc>http://tahar.dev/categories/</loc>
+  </url><url>
     <loc>http://tahar.dev/about/</loc>
   </url><url>
     <loc>http://tahar.dev/series/</loc>
+  </url><url>
+    <loc>http://tahar.dev/tags/</loc>
   </url>
 </urlset>
