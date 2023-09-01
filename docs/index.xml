@@ -1,62 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Tahar&#39;s Blog</title>
-    <link>http://tahar.dev/</link>
-    <description>Recent content on Tahar&#39;s Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Mon, 27 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://tahar.dev/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Configure GitHub Pages to use a Google subdomain</title>
-      <link>http://tahar.dev/posts/2021/20211227-github-pages-google-subdomain/</link>
-      <pubDate>Mon, 27 Dec 2021 00:00:00 +0000</pubDate>
-      
-      <guid>http://tahar.dev/posts/2021/20211227-github-pages-google-subdomain/</guid>
-      <description>Configure GitHub Pages to use a Google subdomainLately, I&amp;rsquo;ve been working a lot on my online presence. I like to share knowledge and show other developers what I&amp;rsquo;m working on in my spare time. One of my projects (Jadis - a JVM disassembler written in Rust) needed its own homepage.
-I&amp;rsquo;d be broke by now if I were to buy a new domain name for every project I create.</description>
-    </item>
-    
-    <item>
-      <title>Beginner&#39;s guide to MongoDB and Rust</title>
-      <link>http://tahar.dev/posts/2021/20210403-beginners-guide-to-mongodb-and-rust/</link>
-      <pubDate>Sat, 03 Apr 2021 00:00:00 +0000</pubDate>
-      
-      <guid>http://tahar.dev/posts/2021/20210403-beginners-guide-to-mongodb-and-rust/</guid>
-      <description>Beginner’s guide to MongoDB and RustThese days non-relational databases are everywhere. Almost all popular languages have drivers for these databases. Personally, I’m a fan of MongoDB as it’s fairly easy to work with, performs well, and suits all my needs and then some!
-In this post, we’ll take a look at the Rust driver for MongoDB. By the end of this article you’ll be able to operate on your own collections using Rust.</description>
-    </item>
-    
-    <item>
-      <title>Imposter syndrome? Try blogging!</title>
-      <link>http://tahar.dev/posts/2021/20210329-imposter-syndrome-try-blogging/</link>
-      <pubDate>Mon, 29 Mar 2021 00:00:00 +0000</pubDate>
-      
-      <guid>http://tahar.dev/posts/2021/20210329-imposter-syndrome-try-blogging/</guid>
-      <description>Imposter syndrome? Try blogging!I absolutely love to learn new things. Whether it’s something to advance my career (scrum master training), personal development (blogging), or just a fun hobby (motorcycling).
-But, sometimes I seem to somewhat suffer from Imposter Syndrome. Especially at work or when listening to technical talks. I can’t help but have the feeling that I’m lacking knowledge and that I don’t know nearly enough to properly do my job.</description>
-    </item>
-    
-    <item>
-      <title>Actix.rs - a newbie&#39;s perspective</title>
-      <link>http://tahar.dev/posts/2021/20210326-actix-rs-a-newbies-perspective/</link>
-      <pubDate>Fri, 26 Mar 2021 00:00:00 +0000</pubDate>
-      
-      <guid>http://tahar.dev/posts/2021/20210326-actix-rs-a-newbies-perspective/</guid>
-      <description>Actix.rs - a newbie&amp;rsquo;s perspectiveThese days the Rust programming language seems to be everywhere you go online. In fact, the Rust language was rated as one of the most loved languages by the community in the 2020 StackOverflow developer survey!
-I often tend to stay away from hypes and new languages, but the amount of engineers praising Rust has grown significantly over the years. So much that I just had to check it out myself!</description>
-    </item>
-    
-    <item>
-      <title>Hellooo 👋</title>
-      <link>http://tahar.dev/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://tahar.dev/about/</guid>
-      <description>I&amp;rsquo;m Tahar! Looks like you&amp;rsquo;ve stumbled upon my little hideout on the internet&amp;hellip;
-This page is pretty boring summary of who I am and where I work. Not the most exciting stuff, but I figured you might like to know a little bit more about who&amp;rsquo;s responsible for all the nonsense on this website. 😅
-A little bit about me&amp;hellip; I&amp;rsquo;m currently employed as a software engineer at Deloitte&amp;rsquo;s cloud engineering team in Amsterdam.</description>
-    </item>
-    
-  </channel>
-</rss>

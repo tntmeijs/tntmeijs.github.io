@@ -1,0 +1,46 @@
+baseURL: "https://tahar.dev"
+languageCode: "en-us"
+title: "Tahar's Blog"
+
+params:
+  featuredImageField: "featuredImage"
+  Sidebar:
+    emoji: "💻"
+    avatar:
+      src: "avatar.png"
+  widgets:
+    homepage:
+      - type: search
+      - type: archives
+        params:
+            limit: 5
+      - type: categories
+        params:
+            limit: 10
+      - type: tag-cloud
+        params:
+            limit: 10
+    page:
+        - type: toc
+
+module:
+  imports:
+    - path: "github.com/CaiJimmy/hugo-theme-stack/v3"
+
+menu:
+  main:
+    - name: Home
+      weight: -100
+      url: "/"
+      params:
+        icon: home
+
+  social:
+    - name: GitHub
+      url: "https://github.com/tntmeijs"
+      params:
+        icon: brand-github
+    - name: LinkedIn
+      url: "https://linkedin.com/in/tntmeijs"
+      params:
+        icon: brand-linkedin

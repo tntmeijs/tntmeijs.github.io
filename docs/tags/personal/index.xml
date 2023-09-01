@@ -1,31 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>personal on Tahar&#39;s Blog</title>
-    <link>http://tahar.dev/tags/personal/</link>
-    <description>Recent content in personal on Tahar&#39;s Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Mon, 27 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://tahar.dev/tags/personal/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Configure GitHub Pages to use a Google subdomain</title>
-      <link>http://tahar.dev/posts/2021/20211227-github-pages-google-subdomain/</link>
-      <pubDate>Mon, 27 Dec 2021 00:00:00 +0000</pubDate>
-      
-      <guid>http://tahar.dev/posts/2021/20211227-github-pages-google-subdomain/</guid>
-      <description>Configure GitHub Pages to use a Google subdomainLately, I&amp;rsquo;ve been working a lot on my online presence. I like to share knowledge and show other developers what I&amp;rsquo;m working on in my spare time. One of my projects (Jadis - a JVM disassembler written in Rust) needed its own homepage.
-I&amp;rsquo;d be broke by now if I were to buy a new domain name for every project I create.</description>
-    </item>
-    
-    <item>
-      <title>Imposter syndrome? Try blogging!</title>
-      <link>http://tahar.dev/posts/2021/20210329-imposter-syndrome-try-blogging/</link>
-      <pubDate>Mon, 29 Mar 2021 00:00:00 +0000</pubDate>
-      
-      <guid>http://tahar.dev/posts/2021/20210329-imposter-syndrome-try-blogging/</guid>
-      <description>Imposter syndrome? Try blogging!I absolutely love to learn new things. Whether it’s something to advance my career (scrum master training), personal development (blogging), or just a fun hobby (motorcycling).
-But, sometimes I seem to somewhat suffer from Imposter Syndrome. Especially at work or when listening to technical talks. I can’t help but have the feeling that I’m lacking knowledge and that I don’t know nearly enough to properly do my job.</description>
-    </item>
-    
-  </channel>
-</rss>

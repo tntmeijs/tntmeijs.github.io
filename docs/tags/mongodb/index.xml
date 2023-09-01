@@ -1,21 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>mongodb on Tahar&#39;s Blog</title>
-    <link>http://tahar.dev/tags/mongodb/</link>
-    <description>Recent content in mongodb on Tahar&#39;s Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Sat, 03 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://tahar.dev/tags/mongodb/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Beginner&#39;s guide to MongoDB and Rust</title>
-      <link>http://tahar.dev/posts/2021/20210403-beginners-guide-to-mongodb-and-rust/</link>
-      <pubDate>Sat, 03 Apr 2021 00:00:00 +0000</pubDate>
-      
-      <guid>http://tahar.dev/posts/2021/20210403-beginners-guide-to-mongodb-and-rust/</guid>
-      <description>Beginner’s guide to MongoDB and RustThese days non-relational databases are everywhere. Almost all popular languages have drivers for these databases. Personally, I’m a fan of MongoDB as it’s fairly easy to work with, performs well, and suits all my needs and then some!
-In this post, we’ll take a look at the Rust driver for MongoDB. By the end of this article you’ll be able to operate on your own collections using Rust.</description>
-    </item>
-    
-  </channel>
-</rss>
