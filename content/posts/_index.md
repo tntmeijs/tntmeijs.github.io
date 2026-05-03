@@ -1,5 +1,5 @@
 +++
-title = "My Blog"
+title = "Tahar's blog"
 description = "My blog site."
 sort_by = "date"
 template = "blog.html"
@@ -11,7 +11,7 @@ generate_feeds = true
 lang = "en"
 
 title = "Articles"
-subtitle = "Brace yourself. A new post might be coming any decade now."
+subtitle = "Breaking: local engineer writes thing down, publishes it."
 
 date_format = "%b %-d, %Y"
 
