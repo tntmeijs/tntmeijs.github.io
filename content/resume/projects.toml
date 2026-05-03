@@ -1,0 +1,35 @@
+[[collection]]
+type = "card_simple"
+title = "InvokeX"
+link = "https://github.com/tntmeijs/invokex"
+content = "A serverless platform built for educational purposes that you can run locally"
+
+[[collection]]
+type = "card_simple"
+title = "TraceSharp"
+link = "https://github.com/tntmeijs/TraceSharp"
+content = "C# path tracer built in a weekend to learn how to work with C#"
+
+[[collection]]
+type = "card_simple"
+title = "Chip8 Emulator"
+link = "https://github.com/tntmeijs/Chip8"
+content = "Emulator for the Chip8 platform, capable of playing various games"
+
+[[collection]]
+type = "card_simple"
+title = "Wisp for Maya"
+link = "https://github.com/TeamWisp/WispForMaya"
+content = "World's first real-time ray-traced viewport for Autodesk Maya"
+
+[[collection]]
+type = "card_simple"
+title = "Wisp Renderer"
+link = "https://github.com/TeamWisp/WispRenderer"
+content = "Real-time ray-tracing library for NVIDIA RTX graphics cards"
+
+[[collection]]
+type = "card_simple"
+title = "Software Rasterizer"
+link = "https://github.com/tntmeijs/Rasterizer-From-Scratch"
+content = "Render 3D graphics using CPU rasterization techniques"

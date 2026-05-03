@@ -1,0 +1,6 @@
+public/
+.DS_Store
+.sass-cache/
+
+static/giallo-dark.css
+static/giallo-light.css

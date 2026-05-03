@@ -1,0 +1,44 @@
+[[collection]]
+type = "card"
+title = "Deloitte"
+subtitle = "Specialist Lead (Manager)"
+date = "2025 — present"
+link = "https://www.deloitte.com"
+icon = "/img/deloitte_logo.png"
+content = "Launched a neobank on AWS in 12 months as lead technical authority, replacing a Java/Kubernetes cluster with a serverless architecture (Go, Lambda, DynamoDB). Designed frameworks and tooling to standardise onboarding flows, built observability for incident detection, and eliminated KYC race conditions affecting 1% of users."
+
+[[collection]]
+type = "card"
+title = "Deloitte"
+subtitle = "Senior Specialist (Senior Consultant)"
+date = "2022 — 2025"
+link = "https://www.deloitte.com"
+icon = "/img/deloitte_logo.png"
+content = "Led an 8-person engineering team delivering a distributed loan origination platform on AWS (Java, Kafka, DocumentDB), processing €50M+ annually and cutting approval time from weeks to days. Decomposed a distributed monolith into domain-specific microservices, increasing delivery speed and reducing deployment risk, all under strict GDPR compliance."
+
+[[collection]]
+type = "card"
+title = "Deloitte"
+subtitle = "Specialist"
+date = "2021 — 2022"
+link = "https://www.deloitte.com"
+icon = "/img/deloitte_logo.png"
+content = "Built a retail loan origination engine (Java, Kafka) generating significant revenue post-launch, handling high-throughput event streams. Developed tooling to inspect and replay Kafka streams, cutting mean time to resolution for distributed failures."
+
+[[collection]]
+type = "card"
+title = "Deloitte"
+subtitle = "Analyst"
+date = "2020 — 2021"
+link = "https://www.deloitte.com"
+icon = "/img/deloitte_logo.png"
+content = "Automated retail loan origination for a major Dutch bank as part of their innovation engineering team, reducing approval time from 6 weeks to 15 minutes."
+
+[[collection]]
+type = "card"
+title = "Sumo Digital"
+subtitle = "Junior Programmer"
+date = "2019 — 2020"
+link = "https://www.sumo-digital.com/"
+icon = "/img/sumo_digital_logo.png"
+content = "Built an internal QA integration testing framework and real-time dashboard for Unreal Engine (React, Node.js, WebSockets, C++), dramatically improving test visibility and feedback loops for QA engineers. Optimised PlayStation 5 resource packing in C++, reducing game size by over 25% for Blu-ray constraints, and developed GPU frame buffer capture with sub-3ms overhead for H.264 encoding using NVIDIA NVENC."
